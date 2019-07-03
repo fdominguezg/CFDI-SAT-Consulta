@@ -28,3 +28,8 @@ Esta es una libreria que ayuda a consultar el estatus de un CFDI (factura) ante 
 fdominguezg@hotmail.com
 Software developer
 ```
+
+Referencias
+ - [Developers-sw](https://developers.sw.com.mx/knowledge-base/servicio-publico-de-consulta-estatus-cfdi-sat/)
+ - [Tar.mx](https://tar.mx/archivo/2018/validar-folio-fiscal-cfdi-con-php-directo-del-sat-2018.html)
+ - [SAT](https://www.sat.gob.mx/consulta/71663/conoce-los-servicios-especializados-de-validacion) En esta liga se encuentra el manual en pdf (Web Service de Validación de CFDI)
