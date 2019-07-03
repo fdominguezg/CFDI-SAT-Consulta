@@ -19,8 +19,9 @@ Esta es una libreria que ayuda a consultar el estatus de un CFDI (factura) ante 
                 - EstatusCancelacion - String
                 - ExpresionErronea - String
                 - Vigente  - Boolean
-            Francisco 03/07/2019
 
+## Paquete nuget
+- [Descargue el paquete nuget](https://www.nuget.org/packages/CFDI-SAT)
 
 ## Contacto
 
