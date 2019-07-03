@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SesverSAT</name>
+    </assembly>
+    <members>
+        <member name="M:SesverSAT.ComparaDosCadenas.Comparar(System.String,System.String)">
+            <Summary>
+            Este método recibe dos cadenas tipo String
+            1.- Primero las convierte a mayusculas
+            2.- Remplaza las vocales acentuadas en las dos cadenas
+            3.- Convierte las cadenas a tipo Char[]
+            4.- Ordena las letras de menor a mayor en cada una de las cadenas
+            5.- Compara las dos cadenas una vez que estan ordenadas y de ser iguales regresa un verdadero
+            Francisco Domínguez González 12/06/2019
+            </Summary>
+        </member>
+        <member name="T:SesverSAT.ConsultaWebNa">
+            <summary>
+            Esta clase utiliza el API del SAT para conocer el estado de las facturas
+            .Net La forma para utilizarla es agregar SESVERSAT.dll como referencia
+            - En la clase donde lo vamos a utilizar importar dicho name space
+            - Crear una insancia del método ConsultaWebNa (Dim ConectaSAT As New ConsultaWebNa)
+            - Consumir el metodo ConsultaCFDI como se muestra en la siguiente linea
+                    -   ConectaSAT.ConsultaCFDI("RFC del emisor", "RFC receptor", "importe de la factura", "CFDI de la factura")
+                        Todos los campos son de tipo string
+            El resultado contiene los siguientes campos
+                - Cancelado - Boolean
+                - CodigoEstatus - String
+                - EsCancelable -  String
+                - Estado - String
+                - EstatusCancelacion - String
+                - ExpresionErronea - String
+                - Vigente  - Boolean
+            Francisco Domínguez González 03/07/2019
+            </summary>
+        </member>
+    </members>
+</doc>
