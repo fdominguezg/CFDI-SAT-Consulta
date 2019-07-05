@@ -12,7 +12,7 @@
             3.- Convierte las cadenas a tipo Char[]
             4.- Ordena las letras de menor a mayor en cada una de las cadenas
             5.- Compara las dos cadenas una vez que estan ordenadas y de ser iguales regresa un verdadero
-            Francisco Domínguez González 12/06/2019
+            Francisco 12/06/2019
             </Summary>
         </member>
         <member name="T:SesverSAT.ConsultaWebNa">
@@ -32,7 +32,7 @@
                 - EstatusCancelacion - String
                 - ExpresionErronea - String
                 - Vigente  - Boolean
-            Francisco Domínguez González 03/07/2019
+            Francisco 03/07/2019
             </summary>
         </member>
     </members>
