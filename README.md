@@ -23,6 +23,28 @@ Esta es una libreria que ayuda a consultar el estatus de un CFDI (factura) ante 
 ## Paquete nuget
 - [Descargue el paquete nuget](https://www.nuget.org/packages/CFDI-SAT)
 
+## Ejemplo en C#, 
+
+```
+using System;
+using System.Web.UI;
+using SesverSAT;
+
+namespace WebApplication1
+{
+    public partial class _Default : Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            ConsultaWebNa consultaSAT = new ConsultaWebNa();
+            var respuesta = consultaSAT.ConsultaCFDI("LSO1306189R5", "GACJ940911ASA", "4999.99", "e7df3047-f8de-425d-b469-37abe5b4dabb");
+            string estado = respuesta.Estado;
+        }
+    }
+}
+```
+
+
 ## Contacto
 
 ```
