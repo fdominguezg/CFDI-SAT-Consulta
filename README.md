@@ -1,5 +1,7 @@
 # CFDI-SAT
 
+Nota.- He publicado una imagen de docker en la siguiente dirección https://hub.docker.com/repository/docker/fdominguezg/cfdi-sat
+
 Esta es una libreria que ayuda a consultar el estatus de un CFDI (factura) ante el SAT.
 
 ## Como utilizarla
